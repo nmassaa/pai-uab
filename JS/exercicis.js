@@ -163,7 +163,184 @@ while (num<21){
     console.log(num)
     num++
 }*/
+/*prova
 paraula = "hola"
 if (paraula.length === 4) {
     console.log("La paraula té 4 lletres")
+}*/ 
+/*EXAMEN
+let numero = Number(prompt("Escriu un número"));
+if (numero > 0) {
+    console.log("El número és positiu");
+}else if (numero < 0) {
+    console.log("El número és negatiu")
+}else {console.log("El número és 0")}*/
+/*numero=Number(prompt("Introdueix un nombre"));
+switch (numero) {
+    case 1:
+    console.log("dilluns")
+    break;
+    case 2:
+    console.log("dimarts")
+    break;
+    case 3:
+    console.log("dimecres")
+    break;
+    case 4:
+    console.log("dijous");
+    break;
+    case 5:
+    console.log("divendres");
+    break;
+    case 6:
+    console.log("Es dissabte");
+    break;
+    case 7:
+    console.log("És diumenge");
+    break;
+}*/
+/*l
+let nombre = Number(prompt("Introdueix un nombre"));
+let num = 1;
+while (nombre>num) {
+    console.log(num)
+    num++
 }
+for (let num=1; nombre>num; num++)
+    console.log(num)*/
+/*num=Number(prompt("Introdueix un nombre"));
+if (num>0 && num%2==0) {
+    console.log("El numero es positiu i parell")
+}else if (num<0 && num%2==0) {
+    console.log("El numero és negatiu i parell");
+}else if (num>0 && num%2!==0) { 
+    console.log("El numero és positiu i senar");
+}else {
+    console.log("El numero es negatiu i senar")
+}*/
+/*let num1= Number(prompt("Introdueix un nombre"));
+let num2= Number(prompt("Introdueix un nombre"));
+let num3= Number(prompt("Introdueix un nombre"));
+let major;
+if (num1 > num2 && num1>num3) {
+    major=num1
+}else if (num2>num1 &&num2>num3) {
+    major=num2
+}else if (num3>num1 && num3>num2) {
+    major=num3
+}else{
+    console.log("Hi ha un empat")
+}
+console.log(major);*/
+/*let num= Number(prompt("Introdueix un nombre"));
+let contador=0;
+let sol;
+while (contador<=10) {
+    sol= num*contador
+    console.log(num,"x",contador,"=",sol)
+    contador ++;
+}*/
+/*let num=1
+for (num; num<=10;num++)
+    if (num%2==0) {
+        console.log(num)
+    }*/
+/*let num=2;
+while (num<=20) {
+    if (num%2==0) {
+        console.log(num) 
+    }
+    num ++
+}*/
+/*suma=0
+for (let num=1;num<=100; num++) {
+    suma=suma+num
+}
+console.log(suma)*/
+/*for (let num=10; num>=1; num--) {
+    console.log(num)
+}*/
+/*let num1= Number(prompt("Introdueix un nombre"));
+let num2= Number(prompt("Introdueix un nombre"));
+let suma=0
+for (let num3=num1; num3<=num2; num3++) {
+    if (num3%2!==0) {
+        suma=suma + num3
+    }
+}
+console.log(suma)*/
+/*let num1= Number(prompt("Introdueix un nombre"));
+let num2= Number(prompt("Introdueix un nombre"));
+contador = 0
+for (num3=num1;num3<=num2;num3++) {
+    if (num3%2==0) {
+        contador=contador + 1
+    }
+}
+console.log(contador)*/
+/*let num= Number(prompt("Esciu numero"))
+let num1=1;
+while(num1<=num){
+    if (num1%2==0)
+        console.log(num1)
+    num1 ++
+}*/
+/*CODI QUE SUMA ELS MULTIPLES DE 3 
+let num1= Number(prompt("Esciu numero"))
+suma=0
+let num2=1
+for (num1; num2<=num1; num2++) {
+    if (num2%3==0) {
+        suma=suma+num2
+    }
+}
+console.log(suma)*/
+/*PROGRAMA QUE CONTA TOTS ELS NUMMEROS MULTIPLES DEL 1 FINS A UN ESCRIT PER NOSALTRES
+let num1= Number(prompt("Introdueix un nombre"));
+let num2= Number(prompt("Introdueix un nombre"));
+contador=0
+for (let num3=num1;num3<=num2;num3++){
+    if (num3%5==0) {
+        contador=contador + 1
+    }
+}
+console.log(contador)*/
+/*Programa que suma tots els numeros entre dos numeros dit per el usuari amb un while
+let num1= Number(prompt("Introdueix un nombre"));
+let num2= Number(prompt("Introdueix un nombre"));
+let suma=0;
+let num3;
+num3=num1;
+while(num3<=num2){
+    suma=suma + num3
+    num3++
+}
+console.log(suma)*/
+/*PROGRAMA QUE MOSTRA TOTS ELS NUMEROS MULTIPLES DE 3 I SENARS
+let num1= Number(prompt("Introdueix un nombre"));
+let num2=1;
+while(num1>=num2) {
+    if (num2%3==0 && num2%2!==0) {
+        console.log(num2)
+    }
+    num2++;
+}   */
+/*PROGRAMA QUE SUMA TOTS ELS NUMEROS SENARS DEL 1 A UN ALTRE
+let num=Number(prompt("Introdueix un nombre: "));
+let num1=1;
+suma=0
+while (num>=num1) {
+    if (num1%2!==0) {
+        suma=suma+num1
+    }
+    num1++
+}
+console.log(suma)*/
+let num1=Number(prompt("Introdueix un nombre: "));
+let num2=Number(prompt("Introdueix un nombre: "));
+let suma=0
+for (let num3=num1;num3<=num2;num3++)
+    if (num3%2!==0) {
+        suma=suma+num3
+    }
+console.log(suma)
